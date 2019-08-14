@@ -8,7 +8,10 @@ $table = $installer->getConnection()->newTable($installer->getTable('maxtraffic'
         'primary' => true,
         'identity' => true,
         ), 'ID')
-    ->addColumn('maxtraffic_website_id', Varien_Db_Ddl_Table::TYPE_INTEGER, 11, array(
+    ->addColumn('maxtraffic_user', Varien_Db_Ddl_Table::TYPE_INTEGER, 11, array(
+        'nullable' => false,
+        ), 'Maxtraffic Website ID')
+    ->addColumn('maxtraffic_website', Varien_Db_Ddl_Table::TYPE_INTEGER, 11, array(
         'nullable' => false,
         ), 'Maxtraffic Website ID')
     ->addColumn('maxtraffic_token', Varien_Db_Ddl_Table::TYPE_TEXT, 255, array(

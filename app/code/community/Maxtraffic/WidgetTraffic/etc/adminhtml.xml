@@ -19,11 +19,11 @@
                     </index>
                     <children>
                         <login translate="title">
-                            <title>login</title>
+                            <title>Register</title>
                             <sort_order>2</sort_order>
                         </login>
                         <invalid translate="title">
-                            <title>invalid</title>
+                            <title>Logout</title>
                             <sort_order>3</sort_order>
                         </invalid>
                     </children>
