@@ -11,7 +11,7 @@ $table = $installer->getConnection()->newTable($installer->getTable('maxtraffic'
     ->addColumn('maxtraffic_website_id', Varien_Db_Ddl_Table::TYPE_INTEGER, 11, array(
         'nullable' => false,
         ), 'Maxtraffic Website ID')
-    ->addColumn('maxtraffic_token', Varien_Db_Ddl_Table::TYPE_TEXT, 32, array(
+    ->addColumn('maxtraffic_token', Varien_Db_Ddl_Table::TYPE_TEXT, 255, array(
         'nullable' => false,
         ), 'Maxtraffic token');
     $installer->getConnection()->createTable($table);
