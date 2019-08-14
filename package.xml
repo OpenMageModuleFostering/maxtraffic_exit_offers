@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>MaxTraffic_Exit_Offers</name>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <stability>stable</stability>
     <license>Open Software License (OSL)</license>
     <channel>community</channel>
@@ -19,11 +19,11 @@ Supported releases:&#xD;
 -1.9&#xD;
 -1.9.1&#xD;
 -1.9.2</description>
-    <notes>Version 2.0.0 - Stable release.</notes>
+    <notes>Version 2.0.1 - Stable release.</notes>
     <authors><author><name>Krisjanis Cers</name><user>MaxTraffic</user><email>krisjanis@maxtraffic.eu</email></author></authors>
     <date>2016-05-10</date>
-    <time>13:38:31</time>
-    <contents><target name="magecommunity"><dir name="Maxtraffic"><dir name="WidgetTraffic"><dir name="Block"><file name="Welcome.php" hash="5a4004e5b4b9b632b16c3ba6be576438"/></dir><dir name="Helper"><file name="Data.php" hash="210b54a4ab109fb00f328f9c1ad20583"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="TrafficController.php" hash="d40a0bfb4f8e267c0d7669036dc70948"/><file name="redirect.php" hash="756adb596d6dc3401014853ccae46a2e"/><file name="register.php" hash="2b0233d9c6680d4b2c093adb6cf56782"/><file name="welcome.php" hash="436fed3dd2a150bf4637b777456e8915"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="b522698621b3c0083d66622e605d1ad2"/><file name="config.xml" hash="3a4741b647fe65a8041b653b6b87dec1"/></dir><dir name="sql"><dir name="widgettraffic_setup"><file name="install-2.0.0.php" hash="2203bda4e1dbea79f1eaac0beeb43722"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Maxtraffic_WidgetTraffic.xml" hash="670e08b71fa3707e49eac1bae76ea728"/></dir></target></contents>
+    <time>13:50:25</time>
+    <contents><target name="magecommunity"><dir name="Maxtraffic"><dir name="WidgetTraffic"><dir name="Block"><file name="Welcome.php" hash="5a4004e5b4b9b632b16c3ba6be576438"/></dir><dir name="Helper"><file name="Data.php" hash="210b54a4ab109fb00f328f9c1ad20583"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="TrafficController.php" hash="c4d606096966b8bc40274b901444f7d2"/><file name="redirect.php" hash="5281c0b162e9854a6dff192fc63a154b"/><file name="register.php" hash="2b0233d9c6680d4b2c093adb6cf56782"/><file name="welcome.php" hash="436fed3dd2a150bf4637b777456e8915"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="b522698621b3c0083d66622e605d1ad2"/><file name="config.xml" hash="3a4741b647fe65a8041b653b6b87dec1"/></dir><dir name="sql"><dir name="widgettraffic_setup"><file name="install-2.0.0.php" hash="2203bda4e1dbea79f1eaac0beeb43722"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Maxtraffic_WidgetTraffic.xml" hash="670e08b71fa3707e49eac1bae76ea728"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>7.0.6</max></php></required></dependencies>
 </package>

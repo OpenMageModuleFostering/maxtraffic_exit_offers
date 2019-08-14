@@ -17,7 +17,7 @@
 				<p>
 					Go to MaxTraffic to set up and manage your campaigns.
 				</p>
-				<a href="//e.maxtraffic.local/magento/login?user=<?php echo $query['maxtraffic_user'] .'&website='. $query['maxtraffic_website'] .'&token='. $query['maxtraffic_token'] ?>" target="_blank" class="button button-primary" style="padding:7px;border-radius:5px;color: #fff;background-color: #F77B08;border-color: #de6f07;text-shadow:none;box-shadow:0 1px 0 #C75800;-webkit-box-shadow:0 1px 0 #C75800;background-image:none;text-decoration:none;">Go to MaxTraffic</a>
+				<a href="//e.maxtraffic.com/magento/login?user=<?php echo $query['maxtraffic_user'] .'&website='. $query['maxtraffic_website'] .'&token='. $query['maxtraffic_token'] ?>" target="_blank" class="button button-primary" style="padding:7px;border-radius:5px;color: #fff;background-color: #F77B08;border-color: #de6f07;text-shadow:none;box-shadow:0 1px 0 #C75800;-webkit-box-shadow:0 1px 0 #C75800;background-image:none;text-decoration:none;">Go to MaxTraffic</a>
 			</div>
 		</div>
 		<?php

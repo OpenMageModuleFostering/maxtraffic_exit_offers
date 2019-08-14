@@ -66,7 +66,7 @@ class Maxtraffic_WidgetTraffic_Adminhtml_TrafficController extends Mage_Adminhtm
         $salt = "MaxTraffic Pop-Up Plugin";
         $crypted_data = trim(base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, $salt, $data, MCRYPT_MODE_ECB, mcrypt_create_iv(mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB), MCRYPT_RAND))));
 
-        $url = 'http://e.maxtraffic.local/magento/login-response?data='. $crypted_data;
+        $url = 'https://e.maxtraffic.com/magento/login-response?data='. $crypted_data;
         $response = json_decode(file_get_contents($url));
 
         if(!$response->ok)
@@ -146,7 +146,7 @@ class Maxtraffic_WidgetTraffic_Adminhtml_TrafficController extends Mage_Adminhtm
             return;
         }
         
-        $url = 'http://e.maxtraffic.local/magento/register?email='. $email .'&domain='. $domain .'&name='. $name .'&surname='. $surname;
+        $url = 'https://e.maxtraffic.com/magento/register?email='. $email .'&domain='. $domain .'&name='. $name .'&surname='. $surname;
 
         $response = json_decode(file_get_contents($url));
 
@@ -240,7 +240,7 @@ class Maxtraffic_WidgetTraffic_Adminhtml_TrafficController extends Mage_Adminhtm
 
         $query = $this->maxtTrafficData();
 
-        $url = 'http://e.maxtraffic.local/magento/login-check?user='. $query['maxtraffic_user'] .'&website='. $query['maxtraffic_website'] .'&token='. $query['maxtraffic_token'];
+        $url = 'https://e.maxtraffic.com/magento/login-check?user='. $query['maxtraffic_user'] .'&website='. $query['maxtraffic_website'] .'&token='. $query['maxtraffic_token'];
 
         $data = json_decode(file_get_contents($url));
 
