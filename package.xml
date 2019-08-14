@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MaxTraffic_Exit_Offers</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Turn your abandoning visitors into customers.</summary>
+    <description>Turn your abandoning visitors into customers. Use this extension to implement our onsite marketing platform. After that see your sales increase by up to 15%.</description>
+    <notes>Version 1.0.0 - Stable release.</notes>
+    <authors><author><name>Krisjanis</name><user>MaxTraffic</user><email>krisjanis@maxtraffic.com</email></author></authors>
+    <date>2015-08-31</date>
+    <time>12:12:04</time>
+    <contents><target name="magecommunity"><dir name="Maxtraffic"><dir name="WidgetTraffic"><dir name="Helper"><file name="Data.php" hash="210b54a4ab109fb00f328f9c1ad20583"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="TrafficController.php" hash="05a5580660e85d5a3b37345d44ed009e"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="88fe9458526d5e199fece28775de7a9d"/><file name="config.xml" hash="40b15804219ba63655fc3ab8a5514e9f"/></dir><dir name="sql"><dir name="widgettraffic_setup"><file name="install-1.0.0.php" hash="04b5d02e861ae5ac8e6aaf68425ccca4"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Maxtraffic_WidgetTraffic.xml" hash="670e08b71fa3707e49eac1bae76ea728"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

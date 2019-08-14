@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <customtab module="maxtraffic_widgettraffic" translate="title">
+            <title>MaxTraffic</title>
+            <sort_order>100</sort_order>
+            <action>adminhtml/traffic</action>
+        </customtab>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <traffic translate="title" module="maxtraffic_widgettraffic">
+                    <title>MaxTraffic Controller</title>
+                    <sort_order>-100</sort_order>
+                    <index translate="title">
+                        <title>MaxTraffic</title>
+                        <sort_order>1</sort_order>
+                    </index>
+                    <children>
+                        <login translate="title">
+                            <title>login</title>
+                            <sort_order>2</sort_order>
+                        </login>
+                        <invalid translate="title">
+                            <title>invalid</title>
+                            <sort_order>3</sort_order>
+                        </invalid>
+                    </children>
+                </traffic>
+            </admin>
+        </resources>
+    </acl>
+</config>

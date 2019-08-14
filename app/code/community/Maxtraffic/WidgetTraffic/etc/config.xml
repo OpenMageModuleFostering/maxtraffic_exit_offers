@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Maxtraffic_WidgetTraffic>
+            <version>1.0.0</version>
+        </Maxtraffic_WidgetTraffic>
+    </modules>
+    <global>
+        <helpers>
+            <widgettraffic>
+                <class>Maxtraffic_WidgetTraffic_Helper</class>
+            </widgettraffic>
+            <maxtraffic_widgettraffic>
+                <class>Mage_Core_Helper</class>
+            </maxtraffic_widgettraffic>
+        </helpers>
+        <models>
+            <widgettraffic>
+                <class>Maxtraffic_WidgetTraffic_Model</class>
+                <resourceModel>widgettraffic_mysql4</resourceModel>
+            </widgettraffic>
+
+            <widgettraffic_myslq4>
+                <class>Maxtraffic_WidgetTraffic_Model_Mysql4</class>
+                <entities>
+                    <widgettraffic>
+                        <table>maxtraffic</table>
+                    </widgettraffic>
+                </entities>
+            </widgettraffic_myslq4>
+        </models>
+
+        <resources>
+            <widgettraffic_setup>
+                <setup>
+                    <module>Maxtraffic_WidgetTraffic</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </widgettraffic_setup>
+            <WidgetTraffic_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </WidgetTraffic_write>
+            <WidgetTraffic_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </WidgetTraffic_read>
+        </resources>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <foo_bar before="Mage_Adminhtml">Maxtraffic_WidgetTraffic_Adminhtml</foo_bar>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>
