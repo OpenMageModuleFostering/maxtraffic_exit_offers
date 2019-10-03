@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/MaxTraffic_Exit_Offers",
+    "name": "openmage-module-fostering\/maxtraffic_exit_offers",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Turn your abandoning visitors into customers.",
     "authors": [
