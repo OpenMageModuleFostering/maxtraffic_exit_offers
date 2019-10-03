@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/MaxTraffic_Exit_Offers",
+    "name": "OpenMageModuleFostering\/MaxTraffic_Exit_Offers",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Turn your abandoning visitors into customers.",
     "authors": [
-    {
-        "name": "Krisjanis Cers",
-        "email": "krisjanis@maxtraffic.eu"
-    }
-],
+        {
+            "name": "Krisjanis Cers",
+            "email": "krisjanis@maxtraffic.eu"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
